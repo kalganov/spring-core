@@ -2,11 +2,12 @@ package com.andreitop.xml.unit;
 
 import com.andreitop.xml.mount.Mount;
 import com.andreitop.xml.mount.Wolf;
+import org.springframework.stereotype.Component;
 
 import java.util.*;
 import java.util.stream.Stream;
 
-
+//@Component("zulJin")
 public class Troll implements Unit {
     private List<Mount> listOfMounts;
     private Set<Mount> setOfMounts;

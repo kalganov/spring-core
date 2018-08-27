@@ -1,6 +1,7 @@
 package com.andreitop.xml;
 
 import com.andreitop.xml.config.AppConfig;
+import com.andreitop.xml.mount.Mount;
 import com.andreitop.xml.mount.Tiger;
 import com.andreitop.xml.mount.Wolf;
 import com.andreitop.xml.unit.Human;
