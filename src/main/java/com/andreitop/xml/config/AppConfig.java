@@ -3,7 +3,6 @@ package com.andreitop.xml.config;
 import com.andreitop.xml.mount.Mount;
 import com.andreitop.xml.mount.Tiger;
 import com.andreitop.xml.mount.Wolf;
-import com.andreitop.xml.unit.Orc;
 import com.andreitop.xml.unit.Troll;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -69,13 +68,5 @@ public class AppConfig {
         troll.setSetOfMounts(getTrollMountSet());
         troll.setMapOfMounts(getTrollMountMap());
         return troll;
-    }
-
-    @Bean("trall")
-    public Orc getOrc() {
-        Orc orc = new Orc(getWolf());
-        orc.setColorCode(9);
-        orc.setWeapon("furryAxe");
-        return orc;
     }
 }

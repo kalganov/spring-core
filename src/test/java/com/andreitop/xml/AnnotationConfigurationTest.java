@@ -1,17 +1,16 @@
 package com.andreitop.xml;
 
 import com.andreitop.xml.config.AppConfig;
-import com.andreitop.xml.mount.Mount;
 import com.andreitop.xml.mount.Tiger;
 import com.andreitop.xml.mount.Wolf;
 import com.andreitop.xml.unit.Human;
 import com.andreitop.xml.unit.Orc;
 import com.andreitop.xml.unit.Troll;
+import org.hamcrest.collection.IsMapContaining;
 import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import org.hamcrest.collection.IsMapContaining;
 
 import java.util.Arrays;
 
